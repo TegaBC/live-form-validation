@@ -1,0 +1,13 @@
+input {
+    border-width: 1px;
+    border-radius: .2rem;
+    border-color: black;
+}
+
+input:focus{
+    outline: none;
+}
+
+#submit:hover{
+    background-color: rgb(154, 154, 154);
+}
