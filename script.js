@@ -9,8 +9,6 @@ inputs.forEach((item, index) =>{
     })
 })
 
-formSubmit
-
 function checkPasswordMatch(){
     console.log("Running validation")
     if (passwordField.value == passwordConfirmField.value){
@@ -19,4 +17,8 @@ function checkPasswordMatch(){
    // passwordConfirmField.setCustomValidity("Passwords do not match")
     return false
 }
+
+formSubmit.addEventListener("submit", () => {
+    return checkPasswordMatch()
+})
 
