@@ -13,19 +13,19 @@
 <body>
     <form action="#">
         <label for="email">Email</label> <br>
-        <input name="email" type="email" required> <br>
+        <input name="email" type="email"> <br>
 
         <label for="country">Country</label> <br>
-        <input type="text" name="country" required> <br>
+        <input type="text" name="country" > <br>
 
         <label for="zip">Zip Code</label> <br>
-        <input type="text" name="zip" required> <br>
+        <input type="text" name="zip" > <br>
 
-        <label for="password">Passowrd</label> <br>
-        <input type="password" name="password" required> <br>
+        <label for="password">Password</label> <br>
+        <input type="password" name="password" required id="password" minlength="2"> <br>
 
         <label for="password-confirmation">Confirm Password</label> <br>
-        <input type="password" name="password-confirmation" required> <br>
+        <input type="password" name="password-confirmation" required id="password-confirm" minlength="2"> <br>
         <br>
         <input type="submit" value="Submit Form" id="submit">
     </form>
